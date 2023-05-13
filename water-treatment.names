@@ -1,0 +1,74 @@
+1. Title: Faults in a urban waste water treatment plant
+
+
+2. Relevant Information:
+
+    This dataset comes from the daily measures of sensors in a urban waste 
+  water treatment plant. The objective is to classify the operational
+  state of the plant in order to predict faults through the state 
+  variables of the plant at each of the stages of the treatment process. 
+  This domain has been stated as an ill-structured domain. 
+   
+  
+3. Number of instances: 527
+
+4. Number of Attributes: 13
+
+    There are some missing values, all are unknown information.
+
+5. Attribute Information:
+
+ All atrributes are numeric and continuous
+
+N.  Attrib.      
+ 1  ZN-E       (input Zinc to plant)
+ 2  PH-E       (input pH to plant) 
+ 3  SS-E       (input suspended solids to plant)  
+ 4  SSV-E      (input volatile supended solids to plant)
+ 5  SED-E      (input sediments to plant) 
+ 6  COND-E     (input conductivity to plant) 
+ 7  PH-P       (input pH to primary settler)
+ 8  PH-D       (input pH to secondary settler) 
+ 9  PH-S       (output pH)   
+10  SS-S       (output suspended solids)
+11  SSV-S      (output volatile supended solids) 
+12  SED-S      (output sediments) 
+13  COND-S     (output conductivity)
+14  SAFE       (shows drinkable or not)
+
+
+-- Statistics:
+ 
+ N.  Attrib.     min      max       mean      st-dev   
+ 1  ZN-E           0.1     33.5       2.36     2.74   
+ 2  PH-E           6.9      8.7       7.81     0.24     
+ 3  SS-E          98     2008       227.44   135.81   
+ 4  SSV-E         13.2     85.0      61.39    12.28   
+ 5  SED-E          0.4     36         4.59     2.67   
+ 6  COND-E       651     3230      1478.62   394.89   
+ 7  PH-P           7.3      8.5       7.83     0.22   
+ 8  PH-D           7.1      8.4       7.81     0.19      
+ 9  PH-S           7.0      9.7       7.70     0.18   
+10  SS-S           6      238        22.23    16.25   
+11  SSV-S         29.2    100        80.15     9.00   
+12  SED-S          0.0      3.5       0.03     0.19   
+13  COND-S       683     3950      1494.81   387.53     
+14  SAFE          0         1         
+
+6. Missing Attribute Values: 
+
+ N. Attrib.   N. of Missings 
+ 1  ZN-E:	 3
+ 2  PH-E:	 0
+ 3  SS-E:	 1
+ 4  SSV-E:	11
+ 5  SED-E:	25
+ 6  COND-E:	 0
+ 7  PH-P:	 0
+ 8  PH-D:	 0
+ 9  PH-S:	 1
+10  SS-S:	 5
+11  SSV-S:      17
+12  SED-S:      28
+13  COND-S:	 1
+14  SAFE: 0
